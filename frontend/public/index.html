@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Biczak | Software Engineer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>Alex Biczak</h1>
+          <p>
+            Software Engineer &nbsp;&bull;&nbsp; Gamer &nbsp;&bull;&nbsp; Nerd
+          </p>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/biczak"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://linkedin.com/in/biczak"
+                  target="_blank"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=alex@biczak.dev"
+                  target="_blank"
+                  class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <span class="copyright">&copy; 2019 | Alex Biczak</span>
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function() {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function() {
+        return false;
+      };
+      window.onorientationchange = function() {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>
