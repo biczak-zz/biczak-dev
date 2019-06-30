@@ -1,0 +1,20 @@
+{
+  "name": "biczak-dev-backend",
+  "version": "0.1.0",
+  "description": "My Personal Website - https://biczak.dev",
+  "main": "src/index.js",
+  "repository": "https://github.com/biczak/biczak-dev",
+  "author": "Alex Biczak <alex.biczak@gmail.com>",
+  "license": "None",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
